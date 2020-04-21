@@ -68,9 +68,9 @@ RUN python3 -m ensurepip \
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b sql-extended https://github.com/arifap195/Abot /root/abot
-RUN mkdir /root/abot/bin/
-WORKDIR /root/abot/
+RUN git clone -b sql-extended https://github.com/arifap195/Abuot /root/Abuot
+RUN mkdir /root/Abuot/bin/
+WORKDIR /root/Abuot/
 
 #
 # Copies session and config (if it exists)
