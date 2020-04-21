@@ -82,4 +82,4 @@ COPY ./sample_config.env ./userbot.session* ./config.env* /root/Abot/
 #
 RUN pip3 install -r requirements.txt
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
-CMD ["python3","-m","userbot"]
+CMD ["python3","-m","abot"]
