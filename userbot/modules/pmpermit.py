@@ -22,7 +22,7 @@ UNAPPROVED_MSG = (
     "`Until then, please don't spam my PM..`\n"
     "`Thank you for being patient.`\n\n"
     "`*This is an automated message`\n"
-    "`💖미나💖`")
+    "`﹄eℝt͢͢͢he﹃🇲🇨`")
 # =================================================================
 
 
