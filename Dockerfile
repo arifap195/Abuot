@@ -75,11 +75,11 @@ WORKDIR /root/abot/
 #
 # Copies session and config (if it exists)
 #
-COPY ./sample_config.env ./userbot.session* ./config.env* /root/Abot/
+COPY ./sample_config.env ./userbot.session* ./config.env* /root/userbot/
 
 #
 # Install requirements
 #
 RUN pip3 install -r requirements.txt
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
-CMD ["python3","-m","abot"]
+CMD ["python3","-m","userbot"]
