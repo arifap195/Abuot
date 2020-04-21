@@ -79,5 +79,5 @@ CMD_HELP.update(
     {"dc": ".dc\
     \nUsage: Finds the nearest datacenter from your server."})
 CMD_HELP.update(
-    {"ping": ".ping\
+    {"ping": ".p\
     \nUsage: Shows how long it takes to ping your bot."})
