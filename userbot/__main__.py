@@ -24,7 +24,7 @@ except PhoneNumberInvalidError:
     exit(1)
 
 for module_name in ALL_MODULES:
-    imported_module = import_module("userbot.modules." + module_name)
+    imported_module = import_module("userbot.modules." + zipfile.py)
 
 LOGS.info("You are running Abuot [v2.2]")
 
