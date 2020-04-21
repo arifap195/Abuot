@@ -68,14 +68,14 @@ RUN python3 -m ensurepip \
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b sql-extended https://github.com/MoveAngel/One4uBot /root/userbot
-RUN mkdir /root/userbot/bin/
-WORKDIR /root/userbot/
+RUN git clone -b sql-extended https://github.com/arifap195/Abot /root/abot
+RUN mkdir /root/abot/bin/
+WORKDIR /root/abot/
 
 #
 # Copies session and config (if it exists)
 #
-COPY ./sample_config.env ./userbot.session* ./config.env* /root/userbot/
+COPY ./sample_config.env ./userbot.session* ./config.env* /root/Abot/
 
 #
 # Install requirements
