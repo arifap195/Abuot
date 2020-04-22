@@ -122,7 +122,7 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("* `My Detail Abuot `\n"
+    await alive.edit("* `Telegram Userbot Is Alive! `\n"
 		         "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷ \n"
                      f"* `Telethon : v{version.__version__} `\n"
                      f"* `Python   : v{python_version()} `\n"
